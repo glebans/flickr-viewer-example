@@ -1,38 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.test {
+  background-color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-container {
+  height: 250px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+}
+.list-item {
+  width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container { 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiTabs-root {
+  display: flex;
+  overflow:initial;
+  min-height: 48px;
 }
+
