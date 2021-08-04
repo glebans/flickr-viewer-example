@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Simple flickr-viewer app for educational and demo purposes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
